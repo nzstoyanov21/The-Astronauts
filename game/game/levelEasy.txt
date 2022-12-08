@@ -1,0 +1,5 @@
+hat
+cap
+map
+bin
+bed
