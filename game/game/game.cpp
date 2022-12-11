@@ -1,5 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
+#include <ctime>
+#include<cstdlib>
 #include <string>
 #include <iomanip>
 #include <windows.h>
@@ -61,9 +63,6 @@ void writeInFileEasy()
         fileEasy << "bed" << endl;
         fileEasy.close();
     }
-    //string words;
-    //srand(time(0));
-    //cout << fileEasy[rand() % 5];
 }
 
 void writeInFileMedium()
@@ -102,6 +101,63 @@ void writeInFileHard()
     // string words;
      //srand(time(0));
     // cout << fileHard[rand() % 5];
+}
+
+void chooseWordEasy()
+{
+    string file;
+    string fileEasy[5];
+    srand(time_t(NULL));
+    fstream wordEasy;
+    wordEasy.open("levelEasy.txt");
+
+    for (int i = 0; i < 6; i++)
+    {
+        wordEasy >> fileEasy[i];
+
+    }
+    int chooseNum = rand() % 5;
+    file = fileEasy[chooseNum];
+    cout << file << endl;
+    wordEasy.close();
+}
+
+void chooseWordMedium()
+{
+    string file;
+    string fileMedium[5];
+    srand(time_t(NULL));
+    fstream wordMedium;
+    wordMedium.open("levelMedium.txt");
+
+    for (int i = 0; i < 6; i++)
+    {
+        wordMedium >> fileMedium[i];
+
+    }
+    int chooseNum = rand() % 5;
+    file = fileMedium[chooseNum];
+    cout << file << endl;
+    wordMedium.close();
+}
+
+void chooseWordHard()
+{
+    string file;
+    string fileHard[5];
+    srand(time_t(NULL));
+    fstream wordHard;
+    wordHard.open("levelHard.txt");
+
+    for (int i = 0; i < 6; i++)
+    {
+        wordHard >> fileHard[i];
+
+    }
+    int chooseNum = rand() % 5;
+    file = fileHard[chooseNum];
+    cout << file << endl;
+    wordHard.close();
 }
 
 
