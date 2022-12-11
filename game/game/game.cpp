@@ -79,9 +79,6 @@ void writeInFileMedium()
         fileMedium << "sing" << endl;
         fileMedium.close();
     }
-    //string words;
-    //srand(time(0));
-    //fileMedium[rand() % 5];
 }
 
 void writeInFileHard()
@@ -98,9 +95,6 @@ void writeInFileHard()
         fileHard << "mouse" << endl;
         fileHard.close();
     }
-    // string words;
-     //srand(time(0));
-    // cout << fileHard[rand() % 5];
 }
 
 void chooseWordEasy()
@@ -111,14 +105,14 @@ void chooseWordEasy()
     fstream wordEasy;
     wordEasy.open("levelEasy.txt");
 
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 5; i++)
     {
         wordEasy >> fileEasy[i];
 
     }
-    int chooseNum = rand() % 5;
-    file = fileEasy[chooseNum];
-    cout << file << endl;
+    srand(time(0));
+    file = fileEasy[rand() % 6];
+    cout << file[0] << " " << file[1] << " " << file[2] << endl;
     wordEasy.close();
 }
 
@@ -130,14 +124,13 @@ void chooseWordMedium()
     fstream wordMedium;
     wordMedium.open("levelMedium.txt");
 
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 5; i++)
     {
         wordMedium >> fileMedium[i];
-
     }
-    int chooseNum = rand() % 5;
-    file = fileMedium[chooseNum];
-    cout << file << endl;
+    srand(time(0));
+    file = fileMedium[rand() % 6];
+    cout << file[0] << " " << file[1] << " " << file[2] << " " << file[3] << " " << endl;       
     wordMedium.close();
 }
 
@@ -149,14 +142,13 @@ void chooseWordHard()
     fstream wordHard;
     wordHard.open("levelHard.txt");
 
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 5; i++)
     {
         wordHard >> fileHard[i];
-
     }
-    int chooseNum = rand() % 5;
-    file = fileHard[chooseNum];
-    cout << file << endl;
+    srand(time(0));
+    file = fileHard[rand() % 6];
+    cout << file[0] << " " << file[1] << " " << file[2] << " " << file[3] <<  " " << file[4] << endl;
     wordHard.close();
 }
 
@@ -230,12 +222,33 @@ void playerMovement()
                 grid[y][x] = '~';
             }
         }
-        if ((y == 0 || y == 15) || (x == 0 || x == 30))
+        if ((y2 == 0 || y2 == 15) || (x2 == 0 || x2 == 30))
         {
             gameOver = true;
         }
 
     } while (!gameOver);
+}
+
+
+void gameForEasyMode()
+{
+    chooseWordEasy();
+    playerMovement();
+}
+
+
+void gameForMediumMode()
+{
+    chooseWordMedium();
+    playerMovement();
+}
+
+
+void gameForHardMode()
+{
+    chooseWordHard();
+    playerMovement();
 }
 
 void мenuGame()
@@ -299,16 +312,13 @@ void мenuGame()
     {
     case 1:
         system("cls");
-        writeInFileEasy();
-        playerMovement();
+        gameForEasyMode();
     case 2:
         system("cls");
-        writeInFileMedium();
-        playerMovement();
+        gameForMediumMode();
     case 3:
         system("cls");
-        writeInFileHard();
-        playerMovement();
+        gameForHardMode();
     case 4:
         system("cls");
         cout << "Ok, Goodbye! Hope you like our project!";
@@ -333,23 +343,6 @@ void мenuGame()
         }
         break;
     }
-}
-
-void gameForEasyMode()
-{
-
-}
-
-
-void gameForMediumMode()
-{
-
-}
-
-
-void gameForHardMode()
-{
-
 }
 
 void Menu()
