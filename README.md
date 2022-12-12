@@ -1,12 +1,12 @@
 <h1 align="center">Team Astronauts</h1>
 
 <p align="center">
-    <img src="/Documentation/assets/banners/banner.png”/>
+    <img src="/Documentation/assets/banners/banner.png/">
 </p>
 
 ## 💻 About
 
-<p align="center">< p>
+<p align="center"></p>
 ## 🗂️Our Tech Stack
 
 ### 👨‍💻Used code editor & collaborative service:
