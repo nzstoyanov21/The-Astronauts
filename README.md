@@ -4,9 +4,12 @@
     <img src="/Documentation/assets/banners/banner.png/">
 </p>
 
+<hr>
+
 ## 💻 About
 
 <p align="center"></p>
+
 ## 🗂️Our Tech Stack
 
 ### 👨‍💻Used code editor & collaborative service:
@@ -32,7 +35,6 @@
     <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt = "MS Teams logo" width=46px /></a>
 </p>
 
-<hr>
 
 <br>
 
@@ -42,6 +44,4 @@
 -<a href = “https://github.com/MTNenkov21”> Martin Nenkov </a> [ QnA Developer ]
 -<a href = “https://github.com/NZStoyanov21”> Nikolay Stoyanov </a> [ Scrum Trainer Developer ]
 
-
-<hr>
 
