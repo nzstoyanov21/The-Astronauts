@@ -8,7 +8,7 @@
 
 ## 💻 About
 
-<p align="center">You're a snake and you aim to collect letters and make words.</p>
+<b><p align="center">You're a snake and you aim to collect letters and make words.</p></b>
 
 ## 🗂️Our Tech Stack
 
@@ -39,9 +39,9 @@
 
 ## 🧒 Our Team
 
--🟨<a href = “https://github.com/NZStoyanov21”> Nikolay Stoyanov </a><br> [ Scrum Trainer Developer ]
--🟥<a href = “https://github.com/DKByandov21”> Dimitar Byandov </a><br> [ Fronted Developer ]
--🟩<a href = “https://github.com/VDVichev21”> Vicho Vichev </a><br> [ Backend Developer ]
--🟦<a href = “https://github.com/MTNenkov21”> Martin Nenkov </a><br> [ QnA Developer ]
+-🟨<a href = “https://github.com/NZStoyanov21”> Nikolay Stoyanov </a> [ Scrum Trainer Developer ]<br>
+-🟥<a href = “https://github.com/DKByandov21”> Dimitar Byandov </a> [ Fronted Developer ] <br>
+-🟩<a href = “https://github.com/VDVichev21”> Vicho Vichev </a> [ Backend Developer ] <br>
+-🟦<a href = “https://github.com/MTNenkov21”> Martin Nenkov </a> [ QnA Developer ]
 
 
