@@ -8,7 +8,7 @@
 
 ## 💻 About
 
-<p align="center"></p>
+<p align="center">You're a snake and you aim to collect letters and make words.</p>
 
 ## 🗂️Our Tech Stack
 
@@ -28,7 +28,6 @@
 ### 🔨📄Used tools for our documentation, presentation & communication:
 
 <p align="left">
-    <a href="https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage"><img src="https://www.myce.com/wp-content/images_posts/2017/03/myce-onedrive-logo.png" alt="MS Word logo" width=48px /></a>
     <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/color/344/ms-word.png" alt="MS Word logo" width=48px /></a>
     <a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="https://img.icons8.com/color/344/ms-excel.png" alt="MS Excel logo" width=48px /></a>
     <a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
@@ -39,9 +38,10 @@
 <br>
 
 ## 🧒 Our Team
--<a href = “https://github.com/VDVichev21”> Vicho Vichev </a> [ Backend Developer ]
--<a href = “https://github.com/DKByandov21”> Dimitar Byandov </a> [ Fronted Developer ]
--<a href = “https://github.com/MTNenkov21”> Martin Nenkov </a> [ QnA Developer ]
--<a href = “https://github.com/NZStoyanov21”> Nikolay Stoyanov </a> [ Scrum Trainer Developer ]
+
+-🟨<a href = “https://github.com/NZStoyanov21”> Nikolay Stoyanov </a><br> [ Scrum Trainer Developer ]
+-🟥<a href = “https://github.com/DKByandov21”> Dimitar Byandov </a><br> [ Fronted Developer ]
+-🟩<a href = “https://github.com/VDVichev21”> Vicho Vichev </a><br> [ Backend Developer ]
+-🟦<a href = “https://github.com/MTNenkov21”> Martin Nenkov </a><br> [ QnA Developer ]
 
 
