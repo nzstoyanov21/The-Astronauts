@@ -1,7 +1,8 @@
 <h1 align="center">Team Astronauts</h1>
 
 <p align="center">
-    <img src="/docs/assets/banners/banner.png/">
+    <img src="docs/assets/banners/dark/banner_dark.png#gh-dark-theme-only"/>
+    <img src="docs/assets/banners/light/banner_light.png#gh-light-theme-only"/>
 </p>
 
 ## 🧒 Our Team
