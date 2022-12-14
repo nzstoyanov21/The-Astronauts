@@ -1,16 +1,25 @@
 <h1 align="center">Team Astronauts</h1>
 
 <p align="center">
-    <img src="/Documentation/assets/banners/banner.png/">
+    <img src="/docs/assets/banners/banner.png/">
 </p>
 
-<hr>
+## 🧒 Our Team
+
+<b>
+<a href = “https://github.com/NZStoyanov21”> 🟨 Nikolay Stoyanov [ Scrum Trainer ] </a><br>
+<a href=“https://github.com/DKByandov21”> 🟥 Dimitar Byandov [ Fronted Developer ] </a><br>
+<a href=“https://github.com/VDVichev21”> 🟩 Vicho Vichev [ Backend Developer ] </a><br>
+<a href =“https://github.com/MTNenkov21”> 🟦 Martin Nenkov [ QA Developer ] </a> 
+</b>
 
 ## 💻 About
+<br>
+<b><p align="center">The point of our game is to engage the user to participate in a classic game of Snake with a slight twist on our end. The final goal of the player is to collect letters, that later form a sensible word, which can be customised through our txt files!
+</p></b>
+<br>
 
-<b><p align="center">You're a snake and you aim to collect letters and make words.</p></b>
-
-## 🗂️Our Tech Stack
+## 🗂️Our Technologies
 
 ### 👨‍💻Used code editor & collaborative service:
 <p align="left">
@@ -36,12 +45,26 @@
 
 
 <br>
+<hr>
 
-## 🧒 Our Team
-
--🟨<a href = “https://github.com/NZStoyanov21”> Nikolay Stoyanov </a> [ Scrum Trainer Developer ]<br>
--🟥<a href = “https://github.com/DKByandov21”> Dimitar Byandov </a> [ Fronted Developer ] <br>
--🟩<a href = “https://github.com/VDVichev21”> Vicho Vichev </a> [ Backend Developer ] <br>
--🟦<a href = “https://github.com/MTNenkov21”> Martin Nenkov </a> [ QnA Developer ]
+## 📄Documents
 
 
+
+<a href="docs/QA_Documentation_The_Astronauts.xlsx">QA Documentation </a>
+
+
+<a href="docs/The_Astronauts_documentation.docx">Team Documentation </a>
+
+
+<a href="docs/The_Astronauts.pptx">Presentation </a>
+
+
+<a href="docs/The_Astronauts_test_plan.docx">Test Plan </a>
+
+<hr>
+
+## 📩 How to Install
+
+<p>To install the repostory, you have to type this 👇 in CMD.
+<pre>git clone "https://github.com/nzstoyanov21/The-Astronauts.git" </pre>
