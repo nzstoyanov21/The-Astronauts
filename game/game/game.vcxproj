@@ -136,7 +136,6 @@
   <ItemGroup>
     <ClInclude Include="chooseRandomWord.h" />
     <ClInclude Include="game.h" />
-    <ClInclude Include="grid.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="precompile.h" />
     <ClInclude Include="tabulate.hpp" />
