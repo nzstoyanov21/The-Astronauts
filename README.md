@@ -1,8 +1,12 @@
 <h1 align="center">Team Astronauts</h1>
 
 <p align="center">
-    <img src="docs/assets/banners/dark/banner_dark.png#gh-dark-theme-only"/>
-    <img src="docs/assets/banners/light/banner_light.png#gh-light-theme-only"/>
+    <a target="_blank" rel="noopener noreferrer" href="/nzstoyanov21/The-Astronauts/blob/main/docs/banners/dark/banner_dark.jpg#gh-dark-theme-only">
+        <img src="docs/assets/banners/dark/banner_dark.jpg#gh-dark-theme-only"/>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="/nzstoyanov21/The-Astronauts/blob/main/docs/banners/light/banner_light.jpg#gh-light-theme-only">
+        <img src="docs/assets/banners/light/banner_light.jpg#gh-light-theme-only"/>
+    </a>
 </p>
 
 ## 🧒 Our Team
