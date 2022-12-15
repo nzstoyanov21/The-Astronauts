@@ -23,7 +23,7 @@ int counter = 0;
 char grid[13][27] =
 {
     "**************************",
-    "|                        |",
+    "|~                       |",
     "|                        |",
     "|                        |",
     "|                        |",
@@ -203,8 +203,6 @@ void gameForEasyMode()
 void gameForMediumMode()
 {
     counter = 0;
-    x = 2;
-    y = 1;
     string randomMediumWord;
     char createWordMedium[5];
     string fileMedium[5];
@@ -251,6 +249,9 @@ void gameForMediumMode()
     grid[createWordMedium3Y][createWordMedium3X] = randomMediumWord[2];
     grid[createWordMedium4Y][createWordMedium4X] = randomMediumWord[3];
     srand(time(NULL));
+
+    x = 2;
+    y = 1;
 
     while (true)
     {
