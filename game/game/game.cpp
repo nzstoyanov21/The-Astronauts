@@ -23,7 +23,7 @@ int counter = 0;
 char grid[13][27] =
 {
     "**************************",
-    "|~                       |",
+    "|                        |",
     "|                        |",
     "|                        |",
     "|                        |",
@@ -83,7 +83,7 @@ void gameForEasyMode()
     while(true)
     {    
 
-        if (y > 0 && y < 14 && x > 0 && x < 24)
+        if (y > 0 && y < 14 && x > 0 && x < 25)
         { 
             system("cls");
             for (int map = 0; map < 13; map++)
@@ -186,11 +186,11 @@ void gameForEasyMode()
     {
         cout << "Try again to make a word!" << endl;
     }
-    cout << "You lost! Go back to the Menu? Y/N: ";
+    cout << "Congrats! Go back to the Menu? Y/N: ";
     cin >> youDie;
     if (youDie == 'Y')
     {
-        system("cls");
+        system("cls");s
         Menu();
     }
     else
